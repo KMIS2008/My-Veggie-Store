@@ -89,6 +89,11 @@
   margin-bottom: 16px;
 }
 
+.mobile-nav-item:hover,
+.mobile-nav-item:focus {
+  color: var(--background-item);
+}
+
 .mobile-nav-list li:not(:last-child) {
   margin-bottom: 16px;
 }
@@ -121,7 +126,6 @@
     max-width: 375px;
     padding: 16px 20px;
   }
-
 }
 
 .nav-list {
@@ -155,6 +159,11 @@
     display: flex;
     gap: 14px;
     color: var(--primary-text-color);
+  }
+
+  .nav-item:hover,
+  .nav-item:focus {
+    color: var(--header-background-color);
   }
 
   .logo {
