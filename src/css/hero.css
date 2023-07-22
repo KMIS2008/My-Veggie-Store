@@ -27,12 +27,14 @@
 }
 .reviews-item {
   position: absolute;
+  cursor: pointer;
 }
 
 .asiat-item {
   position: absolute;
   border: solid 2px #fff;
   border-radius: 44px;
+  cursor: pointer;
 }
 .asiat-item:nth-child(2) {
   left: 28px;
@@ -161,14 +163,10 @@
     max-width: 768px;
   }
   .hero {
-    color: #fff;
-    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 54px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -2.16px;
-    text-transform: uppercase;
     padding-top: 56px;
   }
   .hero-btn {
@@ -198,23 +196,24 @@
   }
 
   .reviews {
-    background-color: #fff;
     border-radius: 54px;
     width: 54px;
     height: 54px;
-    padding: 10px 11px;
+    padding: 11px 10px;
   }
   .border-radius {
     border-radius: 25px;
     width: 50px;
   }
   .reviews-numbur {
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: -0.56px;
-    line-height: 1.5;
-    margin-bottom: 2px;
-    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: -0.72px;
+    line-height: 1.33;
+  }
+
+  .reviews-text{
+    font-size: 10px;
+    letter-spacing: -0.4px;
   }
   .item-p {
     margin-bottom: 34px;
@@ -263,19 +262,21 @@
     padding-top: 120px;
   }
   .reviews {
-    background-color: #fff;
     border-radius: 70px;
     width: 70px;
     height: 70px;
-    padding: 16px 20px;
+    padding: 16px 14px;
   }
+  .reviews-text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.4px;
+  }
+
   .reviews-numbur {
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: -0.56px;
-    line-height: 1.5;
-    margin-bottom: 2px;
-    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.96px;
   }
   .border-radius {
     border-radius: 50px;
@@ -304,14 +305,10 @@
     left: calc(44px * 3);
   }
   .hero {
-    color: #fff;
-    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 64px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.17;
     letter-spacing: -2.56px;
-    text-transform: uppercase;
     width: 672px;
   }
   .button-shop {
